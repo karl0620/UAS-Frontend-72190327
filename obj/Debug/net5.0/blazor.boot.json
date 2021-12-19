@@ -195,11 +195,11 @@
       "mscorlib.dll": "sha256-0qsbc1acYr3S6P7t9gSYyghOhMVs3CTJ9ukQ1VXqksY=",
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
-      "UAS.dll": "sha256-9heRrwutIQ9jK6rdSDl7QVySpY4ez8YCoF6GqOy\/G7w="
+      "UAS.dll": "sha256-tMsPO55fSaBEO3nD3cPlho5cJIBBcPPmC6ok4pmNutU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "UAS.pdb": "sha256-Vmc9wvGm6zQicwIvpdlxd4PdphbDd3WETR85wzdbMwA="
+      "UAS.pdb": "sha256-HjCUHkADFe9Q\/j1XzNBtnnv5pH9md6EmCvIDpavxG14="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",

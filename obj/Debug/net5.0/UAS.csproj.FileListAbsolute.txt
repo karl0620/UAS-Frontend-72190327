@@ -636,3 +636,5 @@ D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\DeleteStudent
 D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\Razor\Pages\DeleteStudent.razor.g.cs
 D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\AddStudent.razor.g.cs
 D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\Razor\Pages\AddStudent.razor.g.cs
+D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\RazorDeclaration\Pages\EnrollmentPage.razor.g.cs
+D:\Frontend-Semester 5\UAS\obj\Debug\net5.0\Razor\Pages\EnrollmentPage.razor.g.cs

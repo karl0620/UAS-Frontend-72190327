@@ -16,14 +16,14 @@
     <tbody>
         @foreach(var std in Students){
             <tr>
-                <td>@std.StudentId</td>
-                <td>@std.FirstName @std.LastName</td>
-                <td>@std.EnrollmentDate</td>
+                <td>@std.studentId</td>
+                <td>@std.firstName @std.lastName</td>
+                <td>@std.enrollmentDate</td>
                 <td>
-                    <a class="btn btn-info" href="@($"studentdetail/{std.StudentId}")">Details</a>
-                    <a class="btn btn-primary" href="#">Enroll</a>
-                    <a class="btn btn-warning" href="@($"studentedit/{std.StudentId}")">Edit</a>
-                    <a class="btn btn-danger" href="@($"deletestudent/{std.StudentId}")">Delete</a>
+                    <a class="btn btn-info" href="@($"studentdetail/{std.studentId}")">Details</a>
+                    <a class="btn btn-primary" href="@($"enrollpage/{std.studentId}")">Enroll</a>
+                    <a class="btn btn-warning" href="@($"studentedit/{std.studentId}")">Edit</a>
+                    <a class="btn btn-danger" href="@($"deletestudent/{std.studentId}")">Delete</a>
                 </td>
             </tr>
         }

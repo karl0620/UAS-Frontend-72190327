@@ -27,8 +27,8 @@ namespace UAS.Services
             return results;
         }
 
-        public async Task<Student> Add(Student obj){
-            var response = await _httpClient.PostAsJsonAsync("api/Student", obj);
+        public async Task<Student> Add(Student student){
+            var response = await _httpClient.PostAsJsonAsync("api/Student", student);
             if(response.IsSuccessStatusCode){
                 return await JsonSerializer.DeserializeAsync<Student>(await response.Content.ReadAsStreamAsync());
             }else{

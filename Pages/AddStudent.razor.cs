@@ -17,8 +17,6 @@ namespace UAS.Pages
         [Inject]
         public NavigationManager NavigationManager { get; set; }
 
-        [Parameter]
-        public string Id{ get; set; }
         protected async Task HandleValidSubmit(){
             Student results = await StudentService.Add(Student);
             NavigationManager.NavigateTo("/studentpage");
