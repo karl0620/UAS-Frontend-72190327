@@ -1,0 +1,22 @@
+@page "/studentdetail/{id}"
+
+<h2>Detail</h2>
+<h4>Students</h4>
+<span class="border-bottom"></span>
+<br>
+<table style="width:100%">
+    <tr>
+        <th style="width:20%">NIM</th>
+        <td style="width:70%">@Student.StudentId</td>
+    </tr>
+    <tr>
+        <th style="width:20%">Nama</th>
+        <td style="width:70%">@Student.FirstName @Student.LastName</td>
+    </tr>
+    <tr>
+        <th style="width:20%">Tanggal Masuk</th>
+        <td style="width:70%">@Student.EnrollmentDate</td>
+    </tr>
+</table>
+<br>
+<a href="@($"studentedit/{Student.StudentId}")">Edit</a><a> | </a><a href="/studentpage">Back to List</a>
